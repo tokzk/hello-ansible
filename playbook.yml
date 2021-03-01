@@ -1,0 +1,6 @@
+---
+- hosts: target
+  tasks:
+  - name: "テスト"
+    shell: |
+        touch hoge
